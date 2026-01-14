@@ -22,7 +22,7 @@ The convergence tolerances can also be changed as shown in the comments beneath 
 
 ## Graphing
 
-The SCF_DIIS.py file can also produce plots of energy as a function of cycle count for convergence monitoring purposes: 
+The SCF_DIIS.py file can also produce plots of energy change, density change, and total energy as a function of cycle count for convergence monitoring purposes: 
 
 ![convergence_plot](conv.jpg)
 
