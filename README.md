@@ -20,6 +20,9 @@ Select whether you would like to use DIIS, initial orbital guess, output name (f
                 
 The convergence tolerances can also be changed as shown in the comments beneath the initialization block.  
 
+Lastly, run the calculation by calling the kernel function: 
+
+k.kernel()
 ## Graphing
 
 The SCF_DIIS.py file can also produce plots of energy change, density change, and total energy as a function of cycle count for convergence monitoring purposes: 
