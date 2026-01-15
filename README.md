@@ -24,7 +24,14 @@ The convergence tolerances can also be changed as shown in the comments beneath 
 
 The SCF_DIIS.py file can also produce plots of energy change, density change, and total energy as a function of cycle count for convergence monitoring purposes: 
 
-![convergence_plot](conv.jpg)
+![convergence_plot](conv.png)
+
+## Sources
+The following resources were used in the creation of this code: 
+- "Programming the Self-Consistent Field Method Using Python", Alexander Sokolov, OSU
+  - https://research.cbc.osu.edu/sokolov.8/wp-content/uploads/2023/05/programming_scf.pdf
+- "The DePrince Research Group Programming Projects"
+  - https://www.chem.fsu.edu/~deprince/programming_projects/diis/
 
 ## Dependencies
 - python 3.x
